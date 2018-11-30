@@ -5,17 +5,17 @@ import {MatButtonModule, MatCheckboxModule, MatToolbarModule, MatSidenavModule, 
 
 
 import { AppComponent } from './app.component';
-import { NavLayoutComponent } from './nav-layout/nav-layout.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeBodyComponent } from './home-body/home-body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavLayoutComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    HomeBodyComponent
   ],
   imports: [
     BrowserModule,
