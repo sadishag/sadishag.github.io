@@ -9,13 +9,18 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeBodyComponent } from './home-body/home-body.component';
+import { AppRoutingModule } from './app-routing.module';
+import { AboutBodyComponent } from './about-body/about-body.component';
+import { ContactBodyComponent } from './contact-body/contact-body.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeBodyComponent
+    HomeBodyComponent,
+    AboutBodyComponent,
+    ContactBodyComponent
   ],
   imports: [
     BrowserModule,
@@ -26,7 +31,8 @@ import { HomeBodyComponent } from './home-body/home-body.component';
     MatToolbarModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
