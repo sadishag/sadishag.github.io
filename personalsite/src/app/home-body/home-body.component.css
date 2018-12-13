@@ -5,10 +5,15 @@ body, html {
 
 .bg {
     /* The image used */
-    background-image: url("https://scontent.fybz2-1.fna.fbcdn.net/v/t31.0-8/1262468_10151823488698058_1898688594_o.jpg?_nc_cat=100&_nc_ht=scontent.fybz2-1.fna&oh=4a284e77827e91d172e7a6febd50013e&oe=5CB140CC");
+    background:
+      linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+      ),
+      url(https://scontent.fybz2-1.fna.fbcdn.net/v/t31.0-8/1262468_10151823488698058_1898688594_o.jpg?_nc_cat=100&_nc_ht=scontent.fybz2-1.fna&oh=4a284e77827e91d172e7a6febd50013e&oe=5CB140CC);
 
     /* Full height */
-    height: 92.5%; 
+    height: 92.5%;
 
     /* Center and scale the image nicely */
     background-position: center;
@@ -16,3 +21,75 @@ body, html {
     background-size: cover;
     background-attachment: fixed;
 }
+
+/* .intro-body {
+  align-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: currentColor;
+  opacity: .75;
+
+} */
+
+/* .brand-heading, .intro-text {
+  color: #f8f8f8;
+  text-align: center;
+} */
+
+/* header {
+  background-size: cover;
+  height: 100vh;
+} */
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+main {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+
+.module {
+  margin: 10px;
+  width: 500px;
+  height: 150px;
+  float: left;
+  /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/shoes.jpg); */
+  background-size: cover;
+  position: relative;
+}
+
+h2 {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 4px 8px;
+  color: white;
+  margin: 0;
+  font: 24pt Sans-Serif;
+}
+/*
+.opp h2 {
+  background: rgba(255, 255, 255, 0.75);
+  color: black;
+} */
